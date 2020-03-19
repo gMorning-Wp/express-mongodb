@@ -1,0 +1,24 @@
+{
+  "name": "express-mongodb",
+  "version": "1.0.0",
+  "description": "用于个人学习express和mongodb相关联所用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strive-Hemingway/express-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strive-Hemingway/express-mongodb/issues"
+  },
+  "homepage": "https://github.com/strive-Hemingway/express-mongodb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5"
+  }
+}

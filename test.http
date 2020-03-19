@@ -1,0 +1,31 @@
+### 定义变量
+@url =http://localhost:4000
+
+### 查询全部产品数据
+GET {{url}}/products
+
+### 查询一个产品数据
+GET {{url}}/products/5e71799b353edd4c16f860cc
+
+### 下面的格式必须这样，中间空一行，切为json字符串，意思就是让服务去解析json字符串变成json
+POST {{url}}/products
+Content-Type: application/json
+
+{
+    "text":"添加产品1"
+}
+
+###
+
+PUT {{url}}/products/5e71799b353edd4c16f860cd
+Content-Type: application/json
+
+{
+    "text":"修改尝试"
+}
+
+###
+
+DELETE  {{url}}/products/5e7186d6e5c8e14ce2b7d601
+Content-Type: application/json
+
