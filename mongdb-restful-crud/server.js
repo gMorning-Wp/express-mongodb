@@ -1,3 +1,13 @@
+/*
+ * @Author: wp 
+ * @Date: 2020-03-22 11:37:28 
+ * @Last Modified by: wp
+ * @Last Modified time: 2020-03-22 16:40:11
+ * 讲述在express中连接mongdb的同时实现crud的restful接口
+ * 
+ */
+
+
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -11,7 +21,6 @@ const mongoose = require('mongoose');
 // 解决方案：安装npm包 cors并使用即可
 
 app.use(require('cors')());
-
 //允许express来处理提交过来的json数据，如果没有这个express自带中间件的话post请求的req.body中是拿不到数据的
 app.use(express.json());
 
